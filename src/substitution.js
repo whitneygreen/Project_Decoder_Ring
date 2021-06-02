@@ -13,9 +13,8 @@ const substitutionModule = (function () {
 
     // tests for: (1) does alphabet exist? (2) is alphabet === 26 chars? (3) does alphabet contain special chars? if not, return FALSE.
     if (!alphabet) {return false}; //test this
-    if (alphabet.length !== 26) {return false}; //test this
-    const specialChars = /[!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?]+/;
-    //if (!specialChars.test(alphabet)) {return false}; //test this
+    if (alphabet.length !== 26) {return false}; 
+   
         // this is a check for repeating letters/////////
         let letter = alphabet[0];
         let count = 0;
