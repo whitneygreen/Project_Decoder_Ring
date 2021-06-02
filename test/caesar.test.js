@@ -1,5 +1,5 @@
 const expect = require("chai").expect;
-const caesar = require("../src/caesar");
+const {caesar} = require("../src/caesar");
 
 describe("caesar function", () => {
   it("should encode if a positive shift value is given", () => {
